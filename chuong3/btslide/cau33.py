@@ -1,22 +1,20 @@
-giadienmuc1=int(input("m1="))
-giadienmuc2=int(input("m2="))
-giadienmuc3=int(input("m3="))
-sokwtieuthu=int(input("Tieu thu="))
+gia1=550
+gia2=750
+gia3=950
+gia4=1350
+tieuthu=int(input("Tieu thu="))
 thue=float(input("thue="))
-if sokwtieuthu>100:
-    a=sokwtieuthu-100
-    x=sokwtieuthu-a
-    tien1=x*giadienmuc1
-    if a>50:
-        b=a-50
-        c=a-b
-        tien2=c*giadienmuc2
-        tien3=b*giadienmuc3
-        print("Phai tra=",(tien1+tien2+tien3)+(tien1+tien2+tien3)*thue)
-    elif a<50:
-        tien2=a*giadienmuc2
-        print("phai tra=",(tien2+tien1)+(tien2+tien1)*thue)
-else:
-    print("phai tra=",tien1,sep="")
+if tieuthu<=100:
+    tiendien1=tieuthu*gia1
+    print("phai tra=",tiendien1,sep="")
+elif tieuthu<=150:
+    tiendien2=100*gia1+(tieuthu-100)*gia2
+    print("phai tra=",tiendien2,sep="")
+elif tieuthu<=200:
+    tiendien3=100*gia1+50*gia2+(tieuthu-150)*gia3
+    print("phai tra=",tiendien3,sep="")
+else: print("phai tra=",tiendien4=100*gia1+50*gia2+50*gia3+(tieuthu-200)*gia4,sep="")
+
+        
         
     

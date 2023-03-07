@@ -4,5 +4,5 @@ c=float(input("c="))
 d=float(input("d="))
 t=(a+b+c+d)
 tb=(a+b+c+d)/4
-print("tong=",t)
-print("trung binh cong=",tb)
+print("tong=",t,sep="")
+print("trung binh cong=",tb,sep="")

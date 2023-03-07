@@ -1,3 +1,4 @@
+print("Nhap hai canh ke cua tam giac vuong:")
 a = int(input("nhap chieu dai canh ke thu nhat :"))
 b = int(input("nhap chieu dai canh ke thu hai :"))
 import math

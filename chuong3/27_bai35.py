@@ -1,4 +1,4 @@
-SoNgayNghi=int(input("nhap so ngay nghi:"))
+SoNgayNghi=int(input("so ngay nghi:"))
 if SoNgayNghi==0 :
     print("xep loai A")
 elif SoNgayNghi<2 :
