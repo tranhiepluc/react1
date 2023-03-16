@@ -1,8 +1,9 @@
-n=int(input("n="))
-if n>0 :
-    print("nhap lai")
-else:     
+    
+while True: 
+    n=int(input())    
     giaithua=1
-    for i in range(1,n+1):
-        giaithua=giaithua*i
-    print(n,"!=",giaithua,sep="")
+    if n>0:
+        for i in range(1,n+1):
+            giaithua=giaithua*i
+        print(giaithua)
+    else: break
