@@ -2,15 +2,15 @@ x= float(input("x="))
 y= float(input("y="))
 ch=input("phep toan:")
 if ch == "+" :
-    print(str(x)+ch+str(y)+"=",round(x+y,1),sep="")
+    print(x,ch,y,"=",round(x+y,1),sep="")
 elif ch == "-":
-    print(str(x)+ch+str(y)+"=",round(x-y,1),sep="")
+    print(x,ch,y,"=",round(x-y,1),sep="")
 elif ch == "*":
-    print(str(x)+ch+str(y)+"=",round(x*y,1),sep="")
+    print(x,ch,y,"=",round(x*y,1),sep="")
 elif ch == "/":
     if y==0:
         print("khong hop le")
     else:
-        print(str(x)+ch+str(y)+"=",round(x/y,1),sep="")
+        print(x,ch,y,"=",round(x/y,1),sep="")
 else:
     print('khong hop le')
